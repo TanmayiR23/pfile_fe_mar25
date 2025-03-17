@@ -1,0 +1,42 @@
+BOOTSTRAP JS AND REACT NODES
+day1 monday 17-03-2025
+tanmy
+Steps to create a new git repo
+1. login to github
+2. on top right click + and select new repository
+3. give name in the repository name box as pfile_fe_mar25
+4. write the description in the description box below
+5. select the ADD README file button 
+6. by default repository is public
+7. click create repository option to create new repository
+
+GIT COMMANDS:
+$ git status:
+        above command is to know the status of the repository 
+
+$ git clone https://github.com/TanmayiR23/pfile_fe_mar25 =repo link:
+        the above command copies the repo from the server(remote repo)into our computer
+		
+$ git pull origin main
+        (pull is the command to copy the updated  repo in the server to the document
+        syntax : git pull origin nagraj_washingmachine_topload
+		default is main)
+		this command downloads the updated repo from the server .main here is the default branch name
+$ git config --global user.name "TanmayiR23"
+$ git config --global user.email "tanmayirajesh23@gmail.com"
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN:
+      on the top right corner click on profile
+	  the click on settings
+	  
+	  click personal access tokens and then select token classic
+	  in new window click generate new token and select token classic
+	  give NOTE
+	  click expity and select no expiry
+	  select the repo checkbocx and scroll dwon and click generate token 
+	  copy the pat and mainly to urself
+	  
+steps to sync remote repo with the local
+	  $ git clone  https://<PAT>github.com/TanmayiR23/pfile_fe_mar25
+	  we have copied pat path and cut it and pasted to command prompt after deleting the repo folder in laerning folder
+	  
